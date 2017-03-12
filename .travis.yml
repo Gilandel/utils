@@ -1,8 +1,5 @@
 language: java
 
-env:
-  - GROUP_ID_PATH=fr/landel/utils
-
 jdk:
   - oraclejdk8
 
