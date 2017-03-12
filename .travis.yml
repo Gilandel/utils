@@ -2,6 +2,7 @@ language: java
 
 env:
   - GROUP_ID_PATH=fr/landel/utils
+  - WORK_DIRECTORY=Gilandel/utils
 
 jdk:
   - oraclejdk8
