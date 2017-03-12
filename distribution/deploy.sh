@@ -2,13 +2,8 @@
 
 set -ev
 
-echo "TRAVIS_REPO_SLUG = ${TRAVIS_REPO_SLUG}, WORK_DIRECTORY=${WORK_DIRECTORY}"
-
 DISTRIBUTION_HOME=${HOME}/build/${WORK_DIRECTORY}/distribution
 MVN_SETTINGS=${DISTRIBUTION_HOME}/settings.xml
-
-echo "DISTRIBUTION_HOME = ${DISTRIBUTION_HOME}"
-echo "MVN_SETTINGS = ${MVN_SETTINGS}"
 
 if [ "$TRAVIS_BRANCH" = 'master' ] && [ "$TRAVIS_PULL_REQUEST" = 'false' ]; then
 	echo "Build and deploy SNAPSHOT"
