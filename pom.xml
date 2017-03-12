@@ -68,21 +68,6 @@
 		<url>https://travis-ci.org/Gilandel/utils</url>
 	</ciManagement>
 
-	<modules>
-		<module>utils-microbenchmark</module>
-		
-		<module>utils-commons</module>
-		<module>utils-assertor</module>
-		<module>utils-io</module>
-		<module>utils-template</module>
-		<module>utils-mapper</module>
-		<module>utils-log</module>
-		<module>utils-aop</module>
-		<module>utils-model</module>
-		<module>utils-poi</module>
-		<module>utils-web</module>
-	</modules>
-
 	<properties>
 		<scm.name>utils</scm.name>
 
