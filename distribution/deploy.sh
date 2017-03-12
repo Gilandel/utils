@@ -2,7 +2,7 @@
 
 set -ev
 
-DISTRIBUTION_HOME=${HOME}/build/${WORK_DIRECTORY}/distribution
+DISTRIBUTION_HOME=${HOME}/build/${TRAVIS_REPO_SLUG}/distribution
 MVN_SETTINGS=${DISTRIBUTION_HOME}/settings.xml
 
 if [ "$TRAVIS_BRANCH" = 'master' ] && [ "$TRAVIS_PULL_REQUEST" = 'false' ]; then
