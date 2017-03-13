@@ -28,7 +28,7 @@
 		<license>
 			<distribution>repo</distribution>
 			<name>${application.org.license}</name>
-			<url>${application.org.url}</url>
+			<url>${application.org.license.url}</url>
 		</license>
 	</licenses>
 
@@ -78,6 +78,8 @@
 		<application.org.name>Gilandel</application.org.name>
 		<application.org.url>https://github.com/Gilandel</application.org.url>
 		<application.org.license>landel-license</application.org.license>
+		<application.org.license.url>${application.org.url}/utils/blob/master/LICENSE</application.org.license.url>
+		<application.org.license.uri>https://raw.githubusercontent.com/Gilandel/utils/master/licenses</application.org.license.uri>
 
 		<!-- For easy access to license parameters when adding a new module -->
 		<canUpdateCopyright>false</canUpdateCopyright>
@@ -493,7 +495,7 @@
 						<encoding>${project.build.sourceEncoding}</encoding>
 
 						<licenseName>${application.org.license}</licenseName>
-						<licenseResolver>${project.baseUri}../licenses</licenseResolver>
+						<licenseResolver>${application.org.license.uri}</licenseResolver>
 						<includes>
 							<include>**/*.java</include>
 						</includes>
