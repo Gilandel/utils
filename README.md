@@ -254,3 +254,6 @@ Features:
 # Roadmap
 
 IO: handle copy/move/delete progress
+
+# License
+See [https://github.com/Gilandel/utils/LICENSE](main project license): Apache License, version 2.0
