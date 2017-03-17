@@ -3,7 +3,7 @@
 # utils
 Utility classes
 
-[![Build Status](https://travis-ci.org/Gilandel/utils.svg?branch=master)](https://travis-ci.org/Gilandel/utils)
+[![Build Status](https://travis-ci.org/Gilandel/utils.svg?branch=master)](https://travis-ci.org/Gilandel/utils/builds)
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/e34c82e78aaf45a797721e62a7a31a0a)](https://www.codacy.com/app/gilles/utils)
 [![Dependency Status](https://www.versioneye.com/user/projects/58b29b6f7b9e15003a17e544/badge.svg?style=flat)](https://www.versioneye.com/user/projects/58b29b6f7b9e15003a17e544)
 [![codecov.io](https://codecov.io/github/Gilandel/utils/coverage.svg?branch=master)](https://codecov.io/github/Gilandel/utils?branch=master)
