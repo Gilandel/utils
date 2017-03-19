@@ -55,7 +55,7 @@ Work progress:
 ### Purpose:
 A module to validate method parameters.
 Original idea is based on the version of Assert provided by the Spring Team.
-This version supports more types and is based on Java 8 lambda to improve performance in validation (avoid unnecessary validation) and generating error message (String.format() is very cool but has not great performance, so this code avoids message generation if not requested).
+This version supports more types and is based on Java 8 lambda to improve performance in validation (avoid unnecessary validation) and in generating error message (String.format() is very cool but has not great performance, so this code avoids message generation if not requested).
 
 ### Examples:
 ```java
