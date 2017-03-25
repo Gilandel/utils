@@ -213,4 +213,4 @@ A simple template tool (very light (around 18kb) and powerful).
 - IO: handle copy/move/delete progress
 
 # License
-See [main project license](https://github.com/Gilandel/utils/LICENSE): Apache License, version 2.0
+Apache License, version 2.0
