@@ -12,7 +12,6 @@ Beware, the releases upper than or equal to 1.0.0 have a lot of modifications an
 - utils-assertor: a library to validate parameter and to facilitate 'fail fast' development
 - utils-commons: a base library that adds a lot of features to Apache library
 - utils-io: a library to load and write files
-- utils-mapper: a mapper tool to facilitate mapping of entity to DTO and vice-versa
 - utils-microbenchmark: a base class to ease the implementation of micro-benchmark tests
 - utils-template: a library to load scripts that contains simple conditions (SQL or HQL, Elastic requests...)
 
@@ -48,14 +47,14 @@ Work progress:
 <dependency>
 	<groupId>fr.landel.utils</groupId>
 	<artifactId>utils-assertor</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.4</version>
 </dependency>
 ```
 
 ### Purpose:
 A module to validate method parameters.
 Original idea is based on the version of Assert provided by the Spring Team.
-This version supports more types and is based on Java 8 lambda to improve performance in validation (avoid unnecessary validation) and in generating error message (String.format() is very cool but has not great performance, so this code avoids message generation if not requested).
+This version supports more types and is based on Java 8 lambda to improve performance in validation (avoid unnecessary validation) and in generating error message (`String.format()` is very cool but has not great performance, so this code avoids message generation if not requested).
 
 ### Examples:
 ```java
@@ -137,24 +136,6 @@ Work progress:
 ### Complete description:
 [Link to summary](https://github.com/Gilandel/utils-io#features)
 
-# utils-mapper
-Work progress:
-![Code status](http://vbc3.com/script/progressbar.php?text=Code&progress=0)
-![Test status](http://vbc3.com/script/progressbar.php?text=Test&progress=0)
-![Benchmark status](http://vbc3.com/script/progressbar.php?text=Benchmark&progress=0)
-![JavaDoc status](http://vbc3.com/script/progressbar.php?text=JavaDoc&progress=0)
-
-```xml
-<dependency>
-	<groupId>fr.landel.utils</groupId>
-	<artifactId>utils-mapper</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
-</dependency>
-```
-
-### Complete description:
-[Link to summary](https://github.com/Gilandel/utils-mapper#summary)
-
 # utils-microbenchmark
 Work progress:
 ![Code status](http://vbc3.com/script/progressbar.php?text=Code&progress=100)
@@ -202,7 +183,6 @@ A simple template tool (very light (around 18kb) and powerful).
 
 ### Complete description:
 [Link to summary](https://github.com/Gilandel/utils-template#summary)
-
 
 # Roadmap
 
