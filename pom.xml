@@ -120,7 +120,7 @@
 		<failsafe.plugin.version>2.19.1</failsafe.plugin.version>
 		<surefire.plugin.version>2.19.1</surefire.plugin.version>
 		<cobertura.plugin.version>2.7</cobertura.plugin.version>
-		<sonar.plugin.version>3.2</sonar.plugin.version>
+		<sonar.plugin.version>3.3.0.603</sonar.plugin.version>
 
 		<gpg.plugin.version>1.6</gpg.plugin.version>
 		<nexus.staging.plugin.version>1.6.8</nexus.staging.plugin.version>
