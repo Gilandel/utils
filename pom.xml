@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>fr.landel</groupId>
@@ -119,7 +120,7 @@
 		<failsafe.plugin.version>2.19.1</failsafe.plugin.version>
 		<surefire.plugin.version>2.19.1</surefire.plugin.version>
 		<cobertura.plugin.version>2.7</cobertura.plugin.version>
-		<sonar.plugin.version>3.2</sonar.plugin.version>
+		<sonar.plugin.version>3.3.0.603</sonar.plugin.version>
 
 		<gpg.plugin.version>1.6</gpg.plugin.version>
 		<nexus.staging.plugin.version>1.6.8</nexus.staging.plugin.version>
@@ -148,7 +149,7 @@
 
 		<tomcat.version>8.5.13</tomcat.version>
 		<h2.version>1.4.194</h2.version>
-		
+
 		<spring.data.version>1.13.1.RELEASE</spring.data.version>
 		<spring.version>4.3.7.RELEASE</spring.version>
 		<aspectj.version>1.8.10</aspectj.version>
@@ -159,7 +160,7 @@
 
 		<junit.version>4.12</junit.version>
 		<hamcrest.version>1.3</hamcrest.version>
-		
+
 		<cobertura.version>2.1.1</cobertura.version>
 		<jmh.version>1.18</jmh.version>
 	</properties>
@@ -443,6 +444,15 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-javadoc-plugin</artifactId>
 					<version>${javadoc.plugin.version}</version>
+					<configuration>
+						<tags>
+							<tag>
+								<name>category</name>
+								<placement>X</placement>
+								<head>For logically grouping features</head>
+							</tag>
+						</tags>
+					</configuration>
 				</plugin>
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
@@ -497,7 +507,7 @@
 						<licenseName>${application.org.license}</licenseName>
 						<licenseResolver>${application.org.license.uri}</licenseResolver>
 						<!-- <licenseResolver>${project.baseUri}/../utils/licenses</licenseResolver> -->
-						
+
 						<includes>
 							<include>**/*.java</include>
 						</includes>
