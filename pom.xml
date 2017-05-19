@@ -146,7 +146,7 @@
 		<hibernate.version>5.2.10.Final</hibernate.version>
 		<hibernate.validator.version>5.4.1.Final</hibernate.validator.version>
 
-		<tomcat.version>8.5.14</tomcat.version>
+		<tomcat.version>8.5.15</tomcat.version>
 		<h2.version>1.4.195</h2.version>
 
 		<spring.data.version>1.13.3.RELEASE</spring.data.version>
