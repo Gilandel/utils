@@ -97,7 +97,7 @@
 		<gpg.home>${env.HOME}/build/Gilandel/utils/distribution</gpg.home>
 
 		<!-- Plugins version -->
-		<dependency.plugin.version>3.0.0</dependency.plugin.version>
+		<dependency.plugin.version>3.0.1</dependency.plugin.version>
 		<source.plugin.version>3.0.1</source.plugin.version>
 		<resources.plugin.version>3.0.2</resources.plugin.version>
 
