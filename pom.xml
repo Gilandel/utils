@@ -103,7 +103,7 @@
 
 		<verifier.plugin.version>1.1</verifier.plugin.version>
 		<clean.plugin.version>3.0.0</clean.plugin.version>
-		<compiler.plugin.version>3.6.1</compiler.plugin.version>
+		<compiler.plugin.version>3.6.2</compiler.plugin.version>
 		<install.plugin.version>2.5.2</install.plugin.version>
 		<deploy.plugin.version>2.8.2</deploy.plugin.version>
 		<site.plugin.version>3.6</site.plugin.version>
@@ -125,14 +125,14 @@
 		<nexus.staging.plugin.version>1.6.8</nexus.staging.plugin.version>
 		<exec.plugin.version>1.6.0</exec.plugin.version>
 
-		<license.plugin.version>1.12</license.plugin.version>
-		<javadoc.plugin.version>2.10.4</javadoc.plugin.version>
+		<license.plugin.version>1.13</license.plugin.version>
+		<javadoc.plugin.version>3.0.0-M1</javadoc.plugin.version>
 		<changelog.plugin.version>2.3</changelog.plugin.version>
-		<versioneye.plugin.version>3.11.2</versioneye.plugin.version>
+		<versioneye.plugin.version>3.11.4</versioneye.plugin.version>
 		<project.reports.plugin.version>2.9</project.reports.plugin.version>
 
 		<!-- Dependencies version -->
-		<commons.lang.version>3.5</commons.lang.version>
+		<commons.lang.version>3.6</commons.lang.version>
 		<commons.beanutils.version>1.9.3</commons.beanutils.version>
 		<commons.collections.version>4.1</commons.collections.version>
 
@@ -144,16 +144,16 @@
 		<!-- For the others classes, Hibernate 4 can be used -->
 		<hibernate.jpa.version>1.0.0.Final</hibernate.jpa.version>
 		<hibernate.version>5.2.10.Final</hibernate.version>
-		<hibernate.validator.version>5.4.1.Final</hibernate.validator.version>
+		<hibernate.validator.version>6.0.0.CR3</hibernate.validator.version>
 
-		<tomcat.version>8.5.15</tomcat.version>
-		<h2.version>1.4.195</h2.version>
+		<tomcat.version>9.0.0.M25</tomcat.version>
+		<h2.version>1.4.196</h2.version>
 
-		<spring.data.version>1.13.3.RELEASE</spring.data.version>
-		<spring.version>4.3.8.RELEASE</spring.version>
+		<spring.data.version>2.0.0.RC2</spring.data.version>
+		<spring.version>5.0.0.RC3</spring.version>
 		<aspectj.version>1.8.10</aspectj.version>
 
-		<jackson.version>2.9.0.pr3</jackson.version>
+		<jackson.version>2.9.0.pr4</jackson.version>
 
 		<poi.version>3.16</poi.version>
 
