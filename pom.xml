@@ -144,16 +144,16 @@
 		<!-- For the others classes, Hibernate 4 can be used -->
 		<hibernate.jpa.version>1.0.0.Final</hibernate.jpa.version>
 		<hibernate.version>5.2.10.Final</hibernate.version>
-		<hibernate.validator.version>6.0.0.CR3</hibernate.validator.version>
+		<hibernate.validator.version>6.0.1.Final</hibernate.validator.version>
 
-		<tomcat.version>9.0.0.M25</tomcat.version>
+		<tomcat.version>9.0.0.M26</tomcat.version>
 		<h2.version>1.4.196</h2.version>
 
 		<spring.data.version>2.0.0.RC2</spring.data.version>
 		<spring.version>5.0.0.RC3</spring.version>
 		<aspectj.version>1.8.10</aspectj.version>
 
-		<jackson.version>2.9.0.pr4</jackson.version>
+		<jackson.version>2.9.0</jackson.version>
 
 		<poi.version>3.16</poi.version>
 
