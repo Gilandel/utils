@@ -98,7 +98,7 @@ Work progress:
 <dependency>
 	<groupId>fr.landel.utils</groupId>
 	<artifactId>utils-commons</artifactId>
-	<version>1.0.7</version>
+	<version>1.0.9</version>
 </dependency>
 ```
 
@@ -118,7 +118,7 @@ Work progress:
 <dependency>
 	<groupId>fr.landel.utils</groupId>
 	<artifactId>utils-io</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 </dependency>
 ```
 
