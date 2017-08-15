@@ -142,7 +142,7 @@
 		<!-- Only the class 'org.gl.utils.model.hibernate.ImprovedNamingStrategy' 
 			requires Hibernate 5 -->
 		<!-- For the others classes, Hibernate 4 can be used -->
-		<hibernate.jpa.version>1.0.0.Final</hibernate.jpa.version>
+		<hibernate.jpa.version>1.0.0.Final-redhat-1</hibernate.jpa.version>
 		<hibernate.version>5.2.10.Final</hibernate.version>
 		<hibernate.validator.version>6.0.1.Final</hibernate.validator.version>
 
