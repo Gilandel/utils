@@ -143,7 +143,7 @@
 			requires Hibernate 5 -->
 		<!-- For the others classes, Hibernate 4 can be used -->
 		<hibernate.jpa.version>1.0.0.Final-redhat-1</hibernate.jpa.version>
-		<hibernate.version>5.2.10.Final</hibernate.version>
+		<hibernate.version>5.2.11.Final</hibernate.version>
 		<hibernate.validator.version>6.0.2.Final</hibernate.validator.version>
 
 		<tomcat.version>9.0.0.M26</tomcat.version>
