@@ -83,8 +83,8 @@
 		<application.org.license.url>http://www.apache.org/licenses/LICENSE-2.0</application.org.license.url>
 
 		<!-- For easy access to license parameters when adding a new module -->
-		<canUpdateCopyright>true</canUpdateCopyright>
-		<canUpdateDescription>true</canUpdateDescription>
+		<canUpdateCopyright>false</canUpdateCopyright>
+		<canUpdateDescription>false</canUpdateDescription>
 
 		<!-- Project information -->
 		<jdk.version>8</jdk.version>
