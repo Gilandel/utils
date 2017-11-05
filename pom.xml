@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>fr.landel</groupId>
@@ -76,14 +77,15 @@
 		<application.name>${project.name}</application.name>
 
 		<application.org.name>Gilandel</application.org.name>
+		<application.org.owners>Gilles Landel</application.org.owners>
 		<application.org.url>https://github.com/Gilandel</application.org.url>
-		<application.org.license>landel-license</application.org.license>
-		<application.org.license.url>${application.org.url}/utils/blob/master/LICENSE</application.org.license.url>
-		<application.org.license.uri>https://raw.githubusercontent.com/Gilandel/utils/master/licenses</application.org.license.uri>
+		
+		<application.org.license>apache_v2</application.org.license>
+		<application.org.license.url>http://www.apache.org/licenses/LICENSE-2.0</application.org.license.url>
 
 		<!-- For easy access to license parameters when adding a new module -->
-		<canUpdateCopyright>false</canUpdateCopyright>
-		<canUpdateDescription>false</canUpdateDescription>
+		<canUpdateCopyright>true</canUpdateCopyright>
+		<canUpdateDescription>true</canUpdateDescription>
 
 		<!-- Project information -->
 		<jdk.version>8</jdk.version>
@@ -92,7 +94,7 @@
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.resourcesEncoding>UTF-8</project.build.resourcesEncoding>
-		
+
 		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
 		<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
 		<sonar.junit.reportsPath>${project.build.directory}/jacoco</sonar.junit.reportsPath>
@@ -270,10 +272,12 @@
 					</execution>
 				</executions>
 			</plugin>
+			
 			<plugin>
 				<groupId>com.versioneye</groupId>
 				<artifactId>versioneye-maven-plugin</artifactId>
 			</plugin>
+			
 			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nexus-staging-maven-plugin</artifactId>
@@ -284,6 +288,7 @@
 					<autoReleaseAfterClose>true</autoReleaseAfterClose>
 				</configuration>
 			</plugin>
+			
 			<!-- generates 'argLine' parameter for surefire -->
 			<plugin>
 				<groupId>org.jacoco</groupId>
@@ -445,8 +450,8 @@
 				</plugin>
 				<plugin>
 					<groupId>org.jacoco</groupId>
-				    <artifactId>jacoco-maven-plugin</artifactId>
-				    <version>${jacoco.plugin.version}</version>
+					<artifactId>jacoco-maven-plugin</artifactId>
+					<version>${jacoco.plugin.version}</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -516,15 +521,14 @@
 						<canUpdateCopyright>${canUpdateCopyright}</canUpdateCopyright>
 						<canUpdateDescription>${canUpdateDescription}</canUpdateDescription>
 
-						<dryRun>false</dryRun>
-						<failOnMissingHeader>true</failOnMissingHeader>
-						<failOnNotUptodateHeader>true</failOnNotUptodateHeader>
-
 						<encoding>${project.build.sourceEncoding}</encoding>
 
+						<copyrightOwners>${application.org.owners}</copyrightOwners>
 						<licenseName>${application.org.license}</licenseName>
-						<licenseResolver>${application.org.license.uri}</licenseResolver>
-						<!-- <licenseResolver>${project.baseUri}/../utils/licenses</licenseResolver> -->
+
+						<thirdPartyFilename>META-INF/THIRD-PARTY.txt</thirdPartyFilename>
+						<excludedScopes>provided,test</excludedScopes>
+						<sortByGroupIdAndArtifactId>true</sortByGroupIdAndArtifactId>
 
 						<includes>
 							<include>**/*.java</include>
@@ -533,6 +537,7 @@
 						<roots>
 							<root>src/main/java</root>
 							<root>src/test/java</root>
+							<root>src/perf/java</root>
 						</roots>
 					</configuration>
 				</plugin>
