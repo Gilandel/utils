@@ -1,1 +1,0 @@
-This file is under Apache License, version 2.0 (2004). Authors: Gilles Landel.
