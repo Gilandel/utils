@@ -118,6 +118,7 @@
 		<jar.plugin.version>3.0.2</jar.plugin.version>
 		<war.plugin.version>3.2.0</war.plugin.version>
 		<shade.plugin.version>3.1.0</shade.plugin.version>
+		<proguard.plugin.version>2.0.14</proguard.plugin.version>
 
 		<assembly.plugin.version>3.1.0</assembly.plugin.version>
 		<buildhelper.plugin.version>3.0.0</buildhelper.plugin.version>
@@ -138,6 +139,8 @@
 		<project.reports.plugin.version>2.9</project.reports.plugin.version>
 
 		<!-- Dependencies version -->
+		<proguard.version>5.3.3</proguard.version>
+		
 		<commons.lang.version>3.6</commons.lang.version>
 		<commons.beanutils.version>1.9.3</commons.beanutils.version>
 		<commons.collections.version>4.1</commons.collections.version>
@@ -501,6 +504,19 @@
 					<artifactId>maven-project-info-reports-plugin</artifactId>
 					<version>${project.reports.plugin.version}</version>
 				</plugin>
+				<plugin>
+                <groupId>com.github.wvengen</groupId>
+                <artifactId>proguard-maven-plugin</artifactId>
+                <version>${proguard.plugin.version}</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>net.sf.proguard</groupId>
+                        <artifactId>proguard-base</artifactId>
+                        <version>${proguard.version}</version>
+                        <scope>runtime</scope>
+                    </dependency>
+                </dependencies>
+            </plugin>
 
 				<!-- Write java header file and generate thrid-party file -->
 				<plugin>
@@ -588,6 +604,19 @@
 										<goals>
 											<goal>update-file-header</goal>
 											<goal>add-third-party</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore />
+									</action>
+								</pluginExecution>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>com.github.wvengen</groupId>
+										<artifactId>proguard-maven-plugin</artifactId>
+										<versionRange>[${proguard.plugin.version},)</versionRange>
+										<goals>
+											<goal>proguard</goal>
 										</goals>
 									</pluginExecutionFilter>
 									<action>
