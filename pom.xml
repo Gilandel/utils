@@ -141,7 +141,7 @@
 		<!-- Dependencies version -->
 		<proguard.version>5.3.3</proguard.version>
 		
-		<commons.lang.version>3.6</commons.lang.version>
+		<commons.lang.version>3.7</commons.lang.version>
 		<commons.beanutils.version>1.9.3</commons.beanutils.version>
 		<commons.collections.version>4.1</commons.collections.version>
 
@@ -153,14 +153,14 @@
 		<!-- For the others classes, Hibernate 4 can be used -->
 		<hibernate.jpa.version>1.0.0.Final-redhat-1</hibernate.jpa.version>
 		<hibernate.version>5.2.12.Final</hibernate.version>
-		<hibernate.validator.version>6.0.4.Final</hibernate.validator.version>
+		<hibernate.validator.version>6.0.5.Final</hibernate.validator.version>
 
 		<tomcat.version>9.0.1</tomcat.version>
 		<h2.version>1.4.196</h2.version>
 
 		<spring.data.version>2.0.1.RELEASE</spring.data.version>
 		<spring.version>5.0.1.RELEASE</spring.version>
-		<aspectj.version>1.8.12</aspectj.version>
+		<aspectj.version>1.8.13</aspectj.version>
 
 		<jackson.version>2.9.2</jackson.version>
 
