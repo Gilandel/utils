@@ -126,7 +126,7 @@
 		<failsafe.plugin.version>2.20.1</failsafe.plugin.version>
 		<surefire.plugin.version>2.20.1</surefire.plugin.version>
 		<jacoco.plugin.version>0.7.9</jacoco.plugin.version>
-		<sonar.plugin.version>3.3.0.603</sonar.plugin.version>
+		<sonar.plugin.version>3.4.0.905</sonar.plugin.version>
 
 		<gpg.plugin.version>1.6</gpg.plugin.version>
 		<nexus.staging.plugin.version>1.6.8</nexus.staging.plugin.version>
@@ -141,7 +141,7 @@
 		<!-- Dependencies version -->
 		<proguard.version>5.3.3</proguard.version>
 		
-		<commons.lang.version>3.6</commons.lang.version>
+		<commons.lang.version>3.7</commons.lang.version>
 		<commons.beanutils.version>1.9.3</commons.beanutils.version>
 		<commons.collections.version>4.1</commons.collections.version>
 
@@ -153,16 +153,16 @@
 		<!-- For the others classes, Hibernate 4 can be used -->
 		<hibernate.jpa.version>1.0.0.Final-redhat-1</hibernate.jpa.version>
 		<hibernate.version>5.2.12.Final</hibernate.version>
-		<hibernate.validator.version>6.0.4.Final</hibernate.validator.version>
+		<hibernate.validator.version>6.0.7.Final</hibernate.validator.version>
 
-		<tomcat.version>9.0.1</tomcat.version>
+		<tomcat.version>9.0.2</tomcat.version>
 		<h2.version>1.4.196</h2.version>
 
 		<spring.data.version>2.0.1.RELEASE</spring.data.version>
-		<spring.version>5.0.1.RELEASE</spring.version>
-		<aspectj.version>1.8.12</aspectj.version>
+		<spring.version>5.0.2.RELEASE</spring.version>
+		<aspectj.version>1.8.13</aspectj.version>
 
-		<jackson.version>2.9.2</jackson.version>
+		<jackson.version>2.9.3</jackson.version>
 
 		<poi.version>3.17</poi.version>
 
