@@ -158,7 +158,7 @@
 		<tomcat.version>9.0.2</tomcat.version>
 		<h2.version>1.4.196</h2.version>
 
-		<spring.data.version>2.0.1.RELEASE</spring.data.version>
+		<spring.data.version>2.0.2.RELEASE</spring.data.version>
 		<spring.version>5.0.2.RELEASE</spring.version>
 		<aspectj.version>1.8.13</aspectj.version>
 
