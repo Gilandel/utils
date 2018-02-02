@@ -47,7 +47,7 @@ Work progress:
 <dependency>
 	<groupId>fr.landel.utils</groupId>
 	<artifactId>utils-assertor</artifactId>
-	<version>1.0.4</version>
+	<version>1.1.3</version>
 </dependency>
 ```
 
@@ -98,7 +98,7 @@ Work progress:
 <dependency>
 	<groupId>fr.landel.utils</groupId>
 	<artifactId>utils-commons</artifactId>
-	<version>1.0.13</version>
+	<version>1.0.16</version>
 </dependency>
 ```
 
@@ -118,7 +118,7 @@ Work progress:
 <dependency>
 	<groupId>fr.landel.utils</groupId>
 	<artifactId>utils-io</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.3</version>
 </dependency>
 ```
 
@@ -167,7 +167,7 @@ Work progress:
 <dependency>
 	<groupId>fr.landel.utils</groupId>
 	<artifactId>utils-template</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 </dependency>
 ```
 

@@ -112,7 +112,7 @@
 		<compiler.plugin.version>3.7.0</compiler.plugin.version>
 		<install.plugin.version>2.5.2</install.plugin.version>
 		<deploy.plugin.version>2.8.2</deploy.plugin.version>
-		<site.plugin.version>3.6</site.plugin.version>
+		<site.plugin.version>3.7</site.plugin.version>
 		<release.plugin.version>2.5.3</release.plugin.version>
 
 		<jar.plugin.version>3.0.2</jar.plugin.version>
@@ -125,7 +125,7 @@
 
 		<failsafe.plugin.version>2.20.1</failsafe.plugin.version>
 		<surefire.plugin.version>2.20.1</surefire.plugin.version>
-		<jacoco.plugin.version>0.7.9</jacoco.plugin.version>
+		<jacoco.plugin.version>0.8.0</jacoco.plugin.version>
 		<sonar.plugin.version>3.4.0.905</sonar.plugin.version>
 
 		<gpg.plugin.version>1.6</gpg.plugin.version>
@@ -133,7 +133,7 @@
 		<exec.plugin.version>1.6.0</exec.plugin.version>
 
 		<license.plugin.version>1.14</license.plugin.version>
-		<javadoc.plugin.version>3.0.0-M1</javadoc.plugin.version>
+		<javadoc.plugin.version>3.0.0</javadoc.plugin.version>
 		<changelog.plugin.version>2.3</changelog.plugin.version>
 		<versioneye.plugin.version>3.11.4</versioneye.plugin.version>
 		<project.reports.plugin.version>2.9</project.reports.plugin.version>
@@ -151,25 +151,25 @@
 		<!-- Only the class 'org.gl.utils.model.hibernate.ImprovedNamingStrategy' 
 			requires Hibernate 5 -->
 		<!-- For the others classes, Hibernate 4 can be used -->
-		<hibernate.jpa.version>1.0.0.Final-redhat-1</hibernate.jpa.version>
+		<hibernate.jpa.version>1.0.2</hibernate.jpa.version>
 		<hibernate.version>5.2.12.Final</hibernate.version>
 		<hibernate.validator.version>6.0.7.Final</hibernate.validator.version>
 
-		<tomcat.version>9.0.2</tomcat.version>
+		<tomcat.version>9.0.4</tomcat.version>
 		<h2.version>1.4.196</h2.version>
 
-		<spring.data.version>2.0.1.RELEASE</spring.data.version>
-		<spring.version>5.0.2.RELEASE</spring.version>
+		<spring.data.version>2.0.3.RELEASE</spring.data.version>
+		<spring.version>5.0.3.RELEASE</spring.version>
 		<aspectj.version>1.8.13</aspectj.version>
 
-		<jackson.version>2.9.3</jackson.version>
+		<jackson.version>2.9.4</jackson.version>
 
 		<poi.version>3.17</poi.version>
 
 		<junit.version>4.12</junit.version>
 		<hamcrest.version>1.3</hamcrest.version>
 
-		<jmh.version>1.19</jmh.version>
+		<jmh.version>1.20</jmh.version>
 	</properties>
 
 	<reporting>
