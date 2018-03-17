@@ -123,8 +123,8 @@
 		<assembly.plugin.version>3.1.0</assembly.plugin.version>
 		<buildhelper.plugin.version>3.0.0</buildhelper.plugin.version>
 
-		<failsafe.plugin.version>2.20.1</failsafe.plugin.version>
-		<surefire.plugin.version>2.20.1</surefire.plugin.version>
+		<failsafe.plugin.version>2.21.0</failsafe.plugin.version>
+		<surefire.plugin.version>2.21.0</surefire.plugin.version>
 		<jacoco.plugin.version>0.8.0</jacoco.plugin.version>
 		<sonar.plugin.version>3.4.0.905</sonar.plugin.version>
 
@@ -139,7 +139,7 @@
 		<project.reports.plugin.version>2.9</project.reports.plugin.version>
 
 		<!-- Dependencies version -->
-		<proguard.version>5.3.3</proguard.version>
+		<proguard.version>6.0.1</proguard.version>
 		
 		<commons.lang.version>3.7</commons.lang.version>
 		<commons.beanutils.version>1.9.3</commons.beanutils.version>
@@ -152,14 +152,14 @@
 			requires Hibernate 5 -->
 		<!-- For the others classes, Hibernate 4 can be used -->
 		<hibernate.jpa.version>1.0.2</hibernate.jpa.version>
-		<hibernate.version>5.2.12.Final</hibernate.version>
-		<hibernate.validator.version>6.0.7.Final</hibernate.validator.version>
+		<hibernate.version>5.2.15.Final</hibernate.version>
+		<hibernate.validator.version>6.0.8.Final</hibernate.validator.version>
 
-		<tomcat.version>9.0.4</tomcat.version>
+		<tomcat.version>9.0.6</tomcat.version>
 		<h2.version>1.4.196</h2.version>
 
-		<spring.data.version>2.0.3.RELEASE</spring.data.version>
-		<spring.version>5.0.3.RELEASE</spring.version>
+		<spring.data.version>2.0.5.RELEASE</spring.data.version>
+		<spring.version>5.0.4.RELEASE</spring.version>
 		<aspectj.version>1.8.13</aspectj.version>
 
 		<jackson.version>2.9.4</jackson.version>
