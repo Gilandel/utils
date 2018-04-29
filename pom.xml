@@ -103,21 +103,21 @@
 		<gpg.home>${env.HOME}/build/Gilandel/utils/distribution</gpg.home>
 
 		<!-- Plugins version -->
-		<dependency.plugin.version>3.0.2</dependency.plugin.version>
+		<dependency.plugin.version>3.1.0</dependency.plugin.version>
 		<source.plugin.version>3.0.1</source.plugin.version>
 		<resources.plugin.version>3.0.2</resources.plugin.version>
 
 		<verifier.plugin.version>1.1</verifier.plugin.version>
-		<clean.plugin.version>3.0.0</clean.plugin.version>
+		<clean.plugin.version>3.1.0</clean.plugin.version>
 		<compiler.plugin.version>3.7.0</compiler.plugin.version>
 		<install.plugin.version>2.5.2</install.plugin.version>
 		<deploy.plugin.version>2.8.2</deploy.plugin.version>
 		<site.plugin.version>3.7</site.plugin.version>
 		<release.plugin.version>2.5.3</release.plugin.version>
 
-		<jar.plugin.version>3.0.2</jar.plugin.version>
+		<jar.plugin.version>3.1.0</jar.plugin.version>
 		<war.plugin.version>3.2.0</war.plugin.version>
-		<shade.plugin.version>3.1.0</shade.plugin.version>
+		<shade.plugin.version>3.1.1</shade.plugin.version>
 		<proguard.plugin.version>2.0.14</proguard.plugin.version>
 
 		<assembly.plugin.version>3.1.0</assembly.plugin.version>
@@ -125,21 +125,21 @@
 
 		<failsafe.plugin.version>2.21.0</failsafe.plugin.version>
 		<surefire.plugin.version>2.21.0</surefire.plugin.version>
-		<jacoco.plugin.version>0.8.0</jacoco.plugin.version>
+		<jacoco.plugin.version>0.8.1</jacoco.plugin.version>
 		<sonar.plugin.version>3.4.0.905</sonar.plugin.version>
 
 		<gpg.plugin.version>1.6</gpg.plugin.version>
 		<nexus.staging.plugin.version>1.6.8</nexus.staging.plugin.version>
 		<exec.plugin.version>1.6.0</exec.plugin.version>
 
-		<license.plugin.version>1.14</license.plugin.version>
+		<license.plugin.version>1.16</license.plugin.version>
 		<javadoc.plugin.version>3.0.0</javadoc.plugin.version>
 		<changelog.plugin.version>2.3</changelog.plugin.version>
 		<versioneye.plugin.version>3.11.4</versioneye.plugin.version>
 		<project.reports.plugin.version>2.9</project.reports.plugin.version>
 
 		<!-- Dependencies version -->
-		<proguard.version>6.0.1</proguard.version>
+		<proguard.version>6.0.2</proguard.version>
 		
 		<commons.lang.version>3.7</commons.lang.version>
 		<commons.beanutils.version>1.9.3</commons.beanutils.version>
@@ -153,16 +153,16 @@
 		<!-- For the others classes, Hibernate 4 can be used -->
 		<hibernate.jpa.version>1.0.2</hibernate.jpa.version>
 		<hibernate.version>5.2.15.Final</hibernate.version>
-		<hibernate.validator.version>6.0.8.Final</hibernate.validator.version>
+		<hibernate.validator.version>6.0.9.Final</hibernate.validator.version>
 
-		<tomcat.version>9.0.6</tomcat.version>
-		<h2.version>1.4.196</h2.version>
+		<tomcat.version>9.0.7</tomcat.version>
+		<h2.version>1.4.197</h2.version>
 
 		<spring.data.version>2.0.5.RELEASE</spring.data.version>
-		<spring.version>5.0.4.RELEASE</spring.version>
-		<aspectj.version>1.8.13</aspectj.version>
+		<spring.version>5.0.5.RELEASE</spring.version>
+		<aspectj.version>1.9.1</aspectj.version>
 
-		<jackson.version>2.9.4</jackson.version>
+		<jackson.version>2.9.5</jackson.version>
 
 		<poi.version>3.17</poi.version>
 
