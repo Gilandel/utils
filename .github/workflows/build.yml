@@ -15,11 +15,11 @@ on:
     branches: [ "master" ]
 
 env:
-  #ENCPRYPTED_IV: ${{ vars.ENCPRYPTED_IV }}
-  #ENCPRYPTED_KEY: ${{ vars.ENCPRYPTED_KEY }}
+  ENCPRYPTED_IV: ${{ vars.ENCPRYPTED_IV }}
+  ENCPRYPTED_KEY: ${{ vars.ENCPRYPTED_KEY }}
   OSSRH_JIRA_USERNAME: ${{ vars.OSSRH_JIRA_USERNAME }}
-  #OSSRH_JIRA_PASSWORD: ${{ vars.OSSRH_JIRA_PASSWORD }}
-  #GIT_EMAIL: ${{ vars.GIT_EMAIL }}
+  OSSRH_JIRA_PASSWORD: ${{ vars.OSSRH_JIRA_PASSWORD }}
+  GIT_EMAIL: ${{ vars.GIT_EMAIL }}
   DEPLOYER_URL: ${{ vars.DEPLOYER_URL }}
 
 jobs:
