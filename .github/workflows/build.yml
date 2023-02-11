@@ -40,6 +40,8 @@ jobs:
       env:
         ENCPRYPTED_IV: ${{ secrets.ENCPRYPTED_IV }}
         ENCPRYPTED_KEY: ${{ secrets.ENCPRYPTED_KEY }}
+        GPG_KEYNAME: ${{ secrets.GPG_KEYNAME }}
+        GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         OSSRH_JIRA_USERNAME: ${{ secrets.OSSRH_JIRA_USERNAME }}
         OSSRH_JIRA_PASSWORD: ${{ secrets.OSSRH_JIRA_PASSWORD }}
         GIT_EMAIL: ${{ secrets.GIT_EMAIL }}

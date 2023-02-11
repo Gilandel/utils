@@ -645,17 +645,9 @@
 							<executable>gpg2</executable>
 							<keyname>${env.GPG_KEYNAME}</keyname>
 							<passphrase>${env.GPG_PASSPHRASE}</passphrase>
-							<defaultKeyring>false</defaultKeyring>
 							<homedir>${gpg.home}</homedir>
-							<secretKeyring>${gpg.home}/secring.gpg</secretKeyring>
-							<publicKeyring>${gpg.home}/pubring.gpg</publicKeyring>
 							<useAgent>true</useAgent>
 							<lockMode>never</lockMode>
-							<gpgArguments>
-								<gpgArgument>--no-tty</gpgArgument>
-								<gpgArgument>--pinentry-mode</gpgArgument>
-								<gpgArgument>loopback</gpgArgument>
-							</gpgArguments>
 						</configuration>
 					</plugin>
 				</plugins>
