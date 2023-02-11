@@ -652,8 +652,9 @@
 							<useAgent>true</useAgent>
 							<lockMode>never</lockMode>
 							<gpgArguments>
-								<arg>--pinentry-mode</arg>
-								<arg>loopback</arg>
+								<gpgArgument>--no-tty</gpgArgument>
+								<gpgArgument>--pinentry-mode</gpgArgument>
+								<gpgArgument>loopback</gpgArgument>
 							</gpgArguments>
 						</configuration>
 					</plugin>
