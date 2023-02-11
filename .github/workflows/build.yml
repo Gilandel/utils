@@ -16,6 +16,7 @@ on:
 
 jobs:
   build:
+    environment: MAIN
     runs-on: ubuntu-latest
 
     steps:
