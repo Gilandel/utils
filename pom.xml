@@ -99,9 +99,6 @@
 		<sonar.junit.reportsPath>${project.build.directory}/jacoco</sonar.junit.reportsPath>
 		<sonar.jacoco.reportPath>${project.build.directory}/jacoco.exec</sonar.jacoco.reportPath>
 
-		<!-- others -->
-		<gpg.home>${env.HOME}/build/Gilandel/utils/distribution</gpg.home>
-
 		<!-- Plug-ins version -->
 		<dependency.plugin.version>3.5.0</dependency.plugin.version>
 		<source.plugin.version>3.2.1</source.plugin.version>
@@ -645,7 +642,6 @@
 							<executable>gpg2</executable>
 							<keyname>${env.GPG_KEYNAME}</keyname>
 							<passphrase>${env.GPG_PASSPHRASE}</passphrase>
-							<homedir>${gpg.home}</homedir>
 							<useAgent>true</useAgent>
 							<lockMode>never</lockMode>
 						</configuration>
