@@ -651,6 +651,10 @@
 							<publicKeyring>${gpg.home}/pubring.gpg</publicKeyring>
 							<useAgent>true</useAgent>
 							<lockMode>never</lockMode>
+							<gpgArguments>
+								<gpgArgument>--pinentry-mode</gpgArgument>
+								<gpgArgument>loopback</gpgArgument>
+							</gpgArguments>
 						</configuration>
 					</plugin>
 				</plugins>
