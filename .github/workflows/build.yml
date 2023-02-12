@@ -46,5 +46,4 @@ jobs:
         OSSRH_JIRA_PASSWORD: ${{ secrets.OSSRH_JIRA_PASSWORD }}
         GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
         DEPLOYER_URL: ${{ vars.DEPLOYER_URL }}
-        DEBUG: 'true'
       run: curl $DEPLOYER_URL/deploy.sh | bash
