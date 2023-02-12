@@ -100,7 +100,7 @@
 		<sonar.jacoco.reportPath>${project.build.directory}/jacoco.exec</sonar.jacoco.reportPath>
 
 		<!-- others -->
-		<gpg.home>${env.HOME}/build/Gilandel/utils/distribution</gpg.home>
+		<gpg.home>${env.TEMP}</gpg.home>
 
 		<!-- Plug-ins version -->
 		<dependency.plugin.version>3.5.0</dependency.plugin.version>
@@ -645,6 +645,10 @@
 							<executable>gpg2</executable>
 							<keyname>${env.GPG_KEYNAME}</keyname>
 							<passphrase>${env.GPG_PASSPHRASE}</passphrase>
+							<defaultKeyring>false</defaultKeyring>
+							<homedir>${gpg.home}</homedir>
+							<secretKeyring>${gpg.home}/secring.gpg</secretKeyring>
+							<publicKeyring>${gpg.home}/pubring.gpg</publicKeyring>
 							<useAgent>true</useAgent>
 							<lockMode>never</lockMode>
 						</configuration>
