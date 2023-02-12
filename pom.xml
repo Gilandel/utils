@@ -642,7 +642,7 @@
 							</execution>
 						</executions>
 						<configuration>
-							<executable>gpg</executable>
+							<executable>gpg2</executable>
 							<keyname>${env.GPG_KEYNAME}</keyname>
 							<passphrase>${env.GPG_PASSPHRASE}</passphrase>
 							<defaultKeyring>false</defaultKeyring>
