@@ -46,5 +46,4 @@ jobs:
         OSSRH_JIRA_PASSWORD: ${{ secrets.OSSRH_JIRA_PASSWORD }}
         GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
         DEPLOYER_URL: ${{ vars.DEPLOYER_URL }}
-      run: env | grep 'RUNNER\|WORKSPACE\|DEPLOYER'
-      run: curl $DEPLOYER_URL/deploy.sh | bash
+      run: env | grep 'RUNNER\|WORKSPACE\|DEPLOYER'; curl $DEPLOYER_URL/deploy.sh | bash
