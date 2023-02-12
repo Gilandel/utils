@@ -1,6 +1,6 @@
 # utils
 
-[![Build Status](https://travis-ci.org/Gilandel/utils.svg?branch=master)](https://travis-ci.org/Gilandel/utils/builds)
+[![Build Status](https://app.travis-ci.com/Gilandel/utils.svg?branch=master)](https://app.travis-ci.com/github/Gilandel/utils/builds)
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/e34c82e78aaf45a797721e62a7a31a0a)](https://www.codacy.com/app/gilles/utils)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/fr.landel/utils/badge.svg)](https://maven-badges.herokuapp.com/maven-central/fr.landel/utils)
 

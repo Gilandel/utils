@@ -645,10 +645,7 @@
 							<executable>gpg2</executable>
 							<keyname>${env.GPG_KEYNAME}</keyname>
 							<passphrase>${env.GPG_PASSPHRASE}</passphrase>
-							<defaultKeyring>false</defaultKeyring>
 							<homedir>${gpg.home}</homedir>
-							<secretKeyring>${gpg.home}/secring.gpg</secretKeyring>
-							<publicKeyring>${gpg.home}/pubring.gpg</publicKeyring>
 							<useAgent>true</useAgent>
 							<lockMode>never</lockMode>
 						</configuration>
